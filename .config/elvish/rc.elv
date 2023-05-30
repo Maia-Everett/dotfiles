@@ -5,6 +5,8 @@ fn export {|| e:env | sort }
 fn history {|| edit:command-history &cmd-only=$true | to-lines }
 fn sdate {|| date-elv:date-elv -S "%A, %d %B %Y" }
 
+eval (carapace _carapace|slurp)
+
 set E:EDITOR = "kate -b"
 set E:SUDO_EDITOR = "kate -b"
 set E:QUILT_PATCHES = debian/patches
