@@ -1,0 +1,7 @@
+[user]
+	name = Maia Everett
+	email = maia@everett.one
+[core]
+	autocrlf = input
+[init]
+	defaultBranch = main
